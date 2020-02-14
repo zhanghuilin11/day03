@@ -96,6 +96,8 @@ public class testArrays {
         int arr[] = new int[]{1,2,66,53,3,23,5,675,43};
         int index1 = Arrays.binarySearch(arr,4);
         int index2 = Arrays.binarySearch(arr,53);
+        System.out.print(index1);
+        System.out.print(index2);
 
 
     }
@@ -107,5 +109,6 @@ public class testArrays {
 //        displace();
 //        taxis();
 //        cope();
+        rakel();
     }
 }
