@@ -1,0 +1,3 @@
+garbage collection
+1、发现无用的对象
+2、回收无用对象占用的空间
