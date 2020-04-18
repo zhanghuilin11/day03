@@ -1,0 +1,10 @@
+对于对象来说
+特殊的类，比如String，File，Date，使用==比较的是对象（对象的地址）
+equals比较的是内容
+除了特殊的类之外，普通对象，==和equals比较的都是对象（对象的内存地址）
+如果你想改变某一个类的equals，不想用equals来比较对象的内存地址，就需要重写equals方法
+
+
+字面量创建对象的时候（String a = "asdasd"），只在常量吃创建一个对象
+new的时候（String b = new String("asda")），常量池由对象，堆中也要由对象
+由此，字面量创建String对象要更省内存

@@ -1,0 +1,2 @@
+懒汉式和饿汉式的区别是什么时候执行new，饿汉式先new然后等调用getInstance()
+懒汉式等第一个调用getInstance()之后再调用
